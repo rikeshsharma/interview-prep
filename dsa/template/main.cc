@@ -1,9 +1,13 @@
 // rikesh
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <string>
+
 using namespace std;
 
 using ll = long long;
-constexpr ll mod = 1e9 + 7;
+constexpr ll mod = (1e9 + 7);
 
 ll gcd(ll a, ll b) {
   if (a == 0) return abs(b);
@@ -44,8 +48,8 @@ ll binary_exponentiation(ll a, ll b, ll c) {
 }
 
 int main() {
-  // ios::sync_with_stdio(false);
-  // cin.tie(nullptr);
+  ios_base::sync_with_stdio(false);
+  cin.tie(NULL);
   // code below
 
   return 0;
