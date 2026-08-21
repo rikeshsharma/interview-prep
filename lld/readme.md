@@ -39,3 +39,14 @@ a proven structure that we can use.
 1. Creational Design Pattern
 2. Structural Design Pattern
 3. Behavioural Design Pattern
+
+
+### Prompt
+
+Teach me <Name> Design Pattern in Simple but Complete manner.
+At last give me a small code to implement just <Name> design pattern
+that is difficult enough to challenge me but also easy enough to be completed.
+Please write the int main code by yourself only, I only need to implement the
+design pattern related codes. Make sure you rechecked for the type mismatch in 
+the generated question.
+Go on increasing difficulty level in subsequent questions.

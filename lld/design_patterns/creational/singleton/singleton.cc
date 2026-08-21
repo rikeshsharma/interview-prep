@@ -1,13 +1,19 @@
 class Singleton {
-  Singleton(){}
-  Singleton(const Singleton& object){}
-  Singleton(Singleton&& object){}
-  static Singleton* instance_;
-  public:
-  static Singleton* GetInstance(){
-    if(instance_) return instance_;
-    instance_ = new Singleton();
-    return instance_;
-  }
+private:
+    Singleton() = default;
+
+public:
+    Singleton(const Singleton&) = delete;
+    Singleton(Singleton&&) = delete;
+
+    Singleton& operator=(const Singleton&) = delete;
+    Singleton& operator=(Singleton&&) = delete;
+
+    static Singleton& GetInstance() {
+        static Singleton instance;
+        return instance;
+    }
 };
-Singleton* Singleton::instance_ = nullptr;
+
+// Thread-safe initialization — since C++11, initialization 
+// of a function-local static is guaranteed to be thread-safe.
