@@ -40,13 +40,42 @@ a proven structure that we can use.
 2. Structural Design Pattern
 3. Behavioural Design Pattern
 
+## Complete Low-Level Design (LLD) Learning Roadmap
+
+The topics below are ordered from foundational concepts to advanced LLD design and interview-level practice.
+
+| Sequence | Topic Title | All Things Included in This Topic That Need to Be Learned | Importance Score (10) | Priority Score (10) | Interview Importance (10) |
+|---:|---|---|---:|---:|---:|
+| 1 | Advanced OOP & C++ Design | Composition vs inheritance; Interfaces / abstract classes; Dependency Injection; Immutability; RAII & ownership; Smart pointers; Move semantics; Rule of 5 | 10 | 10 | 10 |
+| 2 | Design Principles Beyond SOLID | DRY; KISS; YAGNI; Law of Demeter; GRASP principles; Cohesion & coupling | 9 | 9 | 9 |
+| 3 | UML & Design Representation | Class diagrams; Sequence diagrams; State diagrams; Activity diagrams; Object relationships | 8 | 8 | 8 |
+| 4 | Domain Modeling | Identify entities; Value objects; Aggregates; Define invariants and business rules; Model domain relationships correctly; State machines / lifecycle modeling | 9 | 9 | 9 |
+| 5 | LLD Modeling & Problem-Solving | Requirements → Use cases → Classes → Relationships → Interfaces → Interactions → Code; requirement analysis; identifying responsibilities; choosing abstractions; modeling object interactions | 10 | 10 | 10 |
+| 6 | API & Interface Design | Public vs private interfaces; Contracts; Preconditions; Postconditions; Versioning; Backward compatibility | 8 | 8 | 8 |
+| 7 | Error & Exception Handling | Exception safety; Error propagation; Failure handling strategies; Designing predictable failure behavior | 8 | 7 | 7 |
+| 8 | Memory & Resource Management | Ownership models; Lifetime management; Resource leaks; RAII in depth; resource ownership boundaries | 10 | 9 | 9 |
+| 9 | Testing & Maintainability | Unit testing; Mocking; Dependency injection for testing; Interface-based design; Testable architecture | 9 | 8 | 8 |
+| 10 | Refactoring & Code Review | Identify bad designs; Refactor legacy code; Detect code smells; Improve extensibility/testability; Know when NOT to use a design pattern | 9 | 8 | 9 |
+| 11 | Event-Driven Design | Observer/event systems; Event bus; Callbacks; Pub/Sub concepts; Decoupled event handling | 8 | 7 | 7 |
+| 12 | Serialization & Persistence | Object serialization; File/database interaction; Repository pattern; DTOs; Persistence boundaries | 7 | 6 | 6 |
+| 13 | Architectural Patterns | MVC; MVP / MVVM; Layered architecture; Hexagonal / Ports & Adapters; Clean Architecture | 8 | 6 | 7 |
+| 14 | Concurrency & Thread-Safe Design | Mutexes / locks; Condition variables; Thread pools; Producer-consumer; Race conditions; Deadlocks; Thread-safe classes | 9 | 8 | 8 |
+| 15 | Performance-Oriented LLD | Caching; Object pooling; Lazy initialization; Copy vs move; Allocation/performance trade-offs | 8 | 7 | 8 |
+| 16 | Security-Oriented Design | Authentication/authorization boundaries; Input validation; Secure resource handling | 7 | 5 | 6 |
+| 17 | Complete LLD Problem Practice | Parking Lot; Vending Machine; Library Management; Elevator; ATM; Chess; Splitwise; Cab Booking; Notification System; Logging Framework; Cache; Rate Limiter; progressively harder end-to-end designs | 10 | 10 | 10 |
+
+### Recommended Practice Strategy
+
+After learning the foundational topics, repeatedly cycle through:
+
+**Requirements → Domain Model → UML → Class Design → SOLID → Design Patterns → API Design → Error Handling → Implementation → Tests → Refactoring → Performance/Concurrency considerations**
 
 ### Prompt
 
-Teach me <Name> Design Pattern in Simple but Complete manner.
-At last give me a small code to implement just <Name> design pattern
+1. Teach me <Name> Design Pattern in Simple but Complete manner.
+At last give me a code question to implement just <Name> design pattern
 that is difficult enough to challenge me but also easy enough to be completed.
 Please write the int main code by yourself only, I only need to implement the
 design pattern related codes. Make sure you rechecked for the type mismatch in 
 the generated question.
-Go on increasing difficulty level in subsequent questions.
+2. Go on increasing difficulty level in subsequent questions.
