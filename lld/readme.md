@@ -37,8 +37,30 @@
 a proven structure that we can use.
 
 1. Creational Design Pattern
+   1. Factory Method
+   2. Abstract Factory
+   3. Builder
+   4. Singleton
+   5. Prototype
 2. Structural Design Pattern
+   1. Adapter
+   2. Bridge
+   3. Composite
+   4. Decorator
+   5. Facade
+   6. Flyweight
+   7. Proxy
 3. Behavioural Design Pattern
+   1. Chain of Responsibility
+   2. Command
+   3. Iterator
+   4. Mediator
+   5. Memento
+   6. Observer
+   7. State
+   8. Strategy
+   9. Template Method
+   10. Visitor
 
 ## Complete Low-Level Design (LLD) Learning Roadmap
 
