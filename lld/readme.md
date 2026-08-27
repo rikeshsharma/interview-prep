@@ -62,6 +62,7 @@ a proven structure that we can use.
    9. Template Method
    10. Visitor
    11. Interpreter
+   12. Delegate
 
 ## Complete Low-Level Design (LLD) Learning Roadmap
 
