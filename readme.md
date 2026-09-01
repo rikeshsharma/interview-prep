@@ -11,7 +11,7 @@
 
 ### DSA
 
-1. [External](https://drive.google.com/drive/folders/1VUOdsqe1EoI1jslaEDYoxClrA15MXc0N?usp=sharing)
+1. External
 
 ### CS
 
