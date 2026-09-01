@@ -1,20 +1,13 @@
 # Job Preparation
 
-## Hiring Platforms
-
-  1. LinkedIn
-  2. Naukari
-  3. Wellfound
-
 ## Topics
 
 1. DSA
 2. CS
 3. LLD
 4. HLD
-5. Interview
-6. ML
-7. Language C++, Python
+5. ML
+6. Language C++, Python
 
 ### DSA
 
@@ -22,10 +15,18 @@
 
 ### CS
 
-  1. [OOPs](cs/oops/)
-  2. Operating System
+  1. [OOPs](./cs/oops/)
+  2. [Operating System](./cs/operating%20system/)
+
 
 ### LLD
 
-  1. Design Patterns
-  2. Concurrency and Thread Safe Design
+  1. [Design Patterns](./lld/design_patterns/)
+  2. [Concurrency and Thread Safe Design](./lld/concurrency%20and%20thread%20safe%20design/)
+  3. [Object Oriented Programming in C++](./lld/oops/)
+  4. [UML, Class and Sequence Diagram](./lld/uml%20and%20design%20representation/)
+  5. [Design Questions](./lld/questions/)
+
+### HLD
+
+
